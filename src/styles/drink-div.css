@@ -1,0 +1,28 @@
+.drink_div {
+    border: 2px solid black;
+    
+}
+.drink_div  img{
+    display: inline-block;
+}
+
+.instructions{
+    border: 2px solid purple;
+    float: right;
+    width: 50%;
+    position: relative;
+    top: -15rem;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+img {
+    display:block;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+@media(max-width: 1000px){
+
+    
+}

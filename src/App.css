@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+header {
+  background-color: #1C1C1F;
+  color: darkgrey;
+  height: 5rem;
+  position:relative;
+  
+}
+
+header h1 {
+  text-align: center;
+  /* border: 2px solid blueviolet; */
+  padding: 1rem;
+}
+
+.random-button{
+  height: 22rem;
+  width: 14rem;
+  color: white;
+  background-color: rgb(216, 25, 25);
+}
+
+.big_rotating_images img {
+  width: 100%;
+}
+
+.img_div{
+  width: 300px;
+  height: 300px;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+.central-content{
+  width: 65%;
+  display: inline-block;
+  /* border: 4px solid red; */
+  
+  /* position: relative; */
+  margin: 0;
+
+
+}
+
+.big_rotating_images {
+  height: 40rem;
+  width: 100%;
+  /* border: 2px solid blue; */
+  
+}
+.left-aside {
+  background-color: #1C1C1F;
+  float: left;
+  width: 18rem;
+  height: 70rem;
+  /* border: 2px solid orange; */
+
+  display: inline;
+}
+
+.right-aside {
+  background-color: #1C1C1F;
+  float: right;
+  margin: 0;
+  width: 18rem;
+  height: 70rem;
+  /* border: 2px solid orange; */
+
+  /* display: inline; */
+}
+
+button{
+  color: white;
+  background-color: black;
+  /* border: none; */
+}
+
+.box-container{
+  border: 4px solid green;
+  position: relative;
+  top: 30rem;
+  left: 15%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 50rem;
+  height: 30rem;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+  border: 2px solid orange;
+}
+
+.tequila {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.vodka {
+  background-image: url("http://cdn.skim.gs/image/upload/v1456342105/msi/shot-of-vodka_orw06j.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.margarita{
+  background-image: url("https://cdn.liquor.com/wp-content/uploads/2012/05/23114430/Margaritas-By-the-pitcher-new.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rum{
+  background-image: url("https://i.pinimg.com/736x/59/6e/db/596edb3e91915e25069e946a41bc1752--tree-trimmer-cocktail-shots.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gin{
+  background-image: url("https://www.chowstatic.com/assets/2014/12/10298_gin_tonic_3000.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.classics{
+  background-image: url("https://static.vinepair.com/wp-content/uploads/2016/11/cocktailsubs-internal-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.favDiv {
+
+}
+@media(max-width: 1000px){
+ .central-content{
+
+   width: 100%;
+ }
+
+ .left-aside {
+   display: none;
+ }
+
+ .right-aside {
+   display: none;
+ }
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
